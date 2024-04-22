@@ -1,0 +1,129 @@
+﻿User Stories/Tasks,Required for MVP,Name,Narrative Description,"Story Points (1,2,3,5,8,13,21)","Business Value Points (1,2,3,5,8)",Acceptance Criteria
+User Story 01,No,Maintain vacation/holiday calendar,"As an employee, I can create, update and delete my vacation calendar and flexible holiday schedule on the benefits portal so that I can manage my benefit plan. Maintain vacation and holiday schedule for no more than two years.",1,1,"Ability to create vacation schedule - single or multiple days
+Ability to create vacation schedule - single or multiple days
+Ability to maintain vacation schedule
+Ability to create flexible holiday schedule
+Alert if my scheduled vacation exceeds my approved vacation days
+The employee cannot edit past vacation and holiday schedules"
+User Story 02,No,Display vacation/holiday calendar,"As an employee, I would like to view my current vacation and flexible holiday schedule, so that I can manage my benefit plan and manage my vacation calendar.",1,1,"When logged into the portal, an employee has the option to view their vacation and flexible holiday schedule. The holiday schedule can be viewed using a date range that cannot exceed more than two years from the current date.
+The employee has the option to download the vacation schedule in a PDF format or email it to their company email account.
+The display will have an option to edit the vacation calendar. Only future calendar edits are allowed."
+User Story 03,Yes,Change W-4 Info,"As an employee, I would like the ability to change my W4 information, so that I can manage how much federal income tax can be withheld from my paycheck by my employer.",1,3,"Have a link to download the W4 form from the benefits portal
+Ability to upload a signed copy of the W4 to the benefits portal
+Have the ability to view and download past W-4 form uploads"
+User Story 04,No,Change Investment Options,"As an employee, I want the ability to display and edit retirement account investment options. The company offers a number of mutual funds as investment options. Need the ability to select one or more funds to invest in and specify the percentage of allocation for each fund.",1,2,"Can view and edit fund allocation
+Total percentage of allocation should total 100%
+Link to IRS current 401(k) investment limits is available
+Have the option to download a PDF copy of the selected investment options"
+User Story 05,Yes,Change payroll Deductions,As an employee I want the ability to display and edit payroll deductions.,1,8,"Specify payroll deductions for investments, tax and charitable causes
+Have the option to download a PDF copy my payroll deductions"
+User Story 06,Yes,Ability to Display Pre-tax Deductions,"As an employee, I would like to view my pre-tax deductions",1,5,"An employee has the ability to view pre-tax deductions
+The employee can download this report in PDF format
+Can view on Andriod device"
+User Story 07,No,Ability to View Pay-stub from any Pay Period,"As an employee, I would like to view my paystubs for any period during the last 2 years. Need to ability to pick a pay period and view the paystub.",1,3,"Ability to select the pay period and view the paystub
+Have a link to submit a query regarding the paystub"
+User Story 08,Yes,Ability to Print a Pay-stub Form,"As an employee, I would like to ability to print my pay-stub from any pay period.",2,5,"Provide options to select to the paystub by pay period
+Ability to print the paystub
+Have the ability to download the paystub as a PDF document"
+User Story 09,No,List all paystubs available,"As an employee, I would like to view all available paystubs so that I can view any one that I have need to.",2,2,List all the paystubs available for viewing
+User Story 10,Yes,Calc 401k tax savings,"As an employee, I want to calculate my 401k tax savings. Would be nice to have the ability to vary my 401k contribution and view the tax savings impact.",2,3,View 410k tax savings as compared to zero investment in the 401k plan
+User Story 11,No,Request planned vacation,"As an employee, I would like to submit a request for vacation to my manager. The request can only be for a vacation up to a year in the future. Cannot request more than 2 weeks of contiguous vacation using this feature.",2,5,"Ability to submit a vacation request to my manager
+Send an email to the manager with a link to view and approve ordisapprove the vacation request"
+User Story 12,Yes,Submit Reimbursable medical expenses,"As an employee, I would like to have the ability to enter and requestreimbursable medical expenses.",2,5,"A link to the latest company medical reimbursement policy is available
+Enter medical reimbursement details
+Ability to attach medical bills and reports. Limit to 2 GB of uploads per request
+Send an email notification to the HR medical reimbursement distribution group"
+User Story 13,No,Set up automatic deposit,"As an employee, I would like to ability to set up automatic deposits for payroll and medical reimbursements. Set up should include the ability to provide bank account details and connect to the account.",2,3,"Accept the terms and conditions for automatic deposit
+Set up bank account for transfer. Need the bank name, routing number and account number
+Display a message to confirm bank account details prior to submission
+Have the option to edit and change the bank account details"
+User Story 14,No,Submit education request,"As an employee, I would like to submit a request for an educational investment to my manager. The education request is for any training or education that is offered outside the company.",3,3,"Present a form to enter a request for educational opportunity. This form needs to have the following information:
+a. Type of education – professional course, college level course, other
+b. Start and end dates for the educational opportunity
+c. Have you already secured admission?
+d. Cost of the course
+e. Name of the educational institute
+f. How does this relate or benefit the work you are currently doing?
+Email the request to the employee manager
+Display a status for approval – requested, in process, approved, disapproved"
+User Story 15,Yes,Enter expenses,"As an employee, I would like to enter and submit travel and other valid expenses.",3,8,"Enter travel and other expenses for approval and reimbursement
+Display a status for each submitted expense – submitted, in process, approved, disapproved
+Can attach receipts for every expense in PDF or JPEG format
+Specify direct deposit or pay by check"
+User Story 16,Yes,Life Insurance enrollment,"As an employee, I would like to enroll for life insurance for myself and my family members.",3,5,"Provide a link to enroll for life insurance via a third-party administrator
+Provide a single sign on feature to the third-party application"
+User Story 17,Yes,Annual enrollment of benefits,"As a HR Administrator, I want the ability to provide annual enrollment of benefits to every eligible employee.",3,8,To be determined
+User Story 18,No,Enroll for Company Provided Tutorials,"As an employee, I would like to enroll in courses and tutorials that are offered through the company learning portal.",3,2,"Present list of courses and tutorials available for the employee to enroll
+Integrate single sign on with vendor’s learning management system"
+User Story 19,No,Payroll admin entry/update,"As an HR admin, I would like the ability to manage the payroll administration and configuration",3,1,"Only HR admin can have access to the Payroll Admin functionality
+Two-factor authentication required
+Capture audit trail for all admin configuration changes"
+User Story 20,No,Set up Health Savings Acct,"As an employee, I would like to option to set up my Health Savings Account via the employee portal",3,3,"Single sign on feature enabled for the benefits vendor system to administer the health savings account
+Provide a link to policy documents and eligibility"
+User Story 21,No,Add/change dependents,"As an employee, I would like the ability to add or remove dependents.",5,2,"Ability to add a new dependent information
+Ability to remove a dependentNeed the following information for dependents:
+a. Name of the dependent
+b. Date of birth"
+User Story 22,Yes,View Employee Stock Purchase Program information,"As an employee, I would like to view the employee stock purchase information and access resources if I have further questions.",5,8,"View the employee stock purchase program documents
+Resources to explore enrollment in the stock purchase program
+a. Stock purchase program calculator that provides the current stock price and employee offered discount
+b. Tool to calculate payroll deduction impact
+c. Legal terms and conditions
+List of contacts for further questions and enrollment process"
+User Story 23,Yes,Print W-2,"As an employee, the information on your W-2 is extremely important when preparing your tax return.",5,8,"View and print Form W-2 in the IRS specified format
+Provide a link to the latest Form W-2 on the Internal Revenue Service website
+List the W-2 forms from the previous 2 years"
+User Story 24,Yes,Charitable contribution edit,"As an employee, I would like to view, select and elect to contribute charitable donations to a charity of my choice. Have the option to view a list of approved charities for contribution. Also need the ability to request a new charity to be added to the approved list. Select a charity for contribution, enter an amount and frequency and choose to deduct charitable donations through payroll deductions.",5,3,"Ability to view, select and contribute to a charity of choice
+Submit a request to add a new charity
+Authorize payroll deduction"
+User Story 25,No,Community volunteer options ,"As an employee, I would like to option to view, research and sign up for community volunteer opportunities. This is an employee contribution forum to post and register for volunteer opportunities. Direct all volunteer sign ups to the community event or organization website or event listing.",5,1,"A community sourced list of volunteer opportunities
+The ability to review and approve a volunteer opportunity submission
+Send out an email to the employee once the volunteer opportunity has been approved"
+User Story 26,No,Export to Payroll service,"As an admin, I would like to enroll export updates to employee profile information to the payroll service. The payroll service is a third-party system through API calls",8,8,"Export profile changes to payroll service
+Generate exception report for any errors
+Perform integration testing with Finance"
+User Story 27,No,Import from payroll service,"As an HR admin, I would like the ability to import the latest payroll run for an employee.",8,5,"Only HR admin can have access to import from the payroll service
+If the latest payroll run is not available, then send an automated email to finance
+Capture audit trail for all admin configuration changes"
+User Story 28,Yes,Update personal profile info,"As an employee, I want to the option to update my profile information so that it reflects the latest changes.",8,3,"Have the option to update the following on the profile:
+a. Name
+b. Photo
+c. Address
+d. Education
+e. Training
+f. Skills"
+User Story 29,No,Update Employee Stock Purchase options,Display and provide ability to edit/change contribution to employee stock purchase program. Select the per payroll contributions to purchase employee stock options at a discounted price.,13,3,"Enter the payroll contribution towards employee stock purchase
+Authorize payroll deduction for employee stock purchase
+View the history of stock purchase
+Elect to receive employee stock purchase information and notices via electronically"
+User Story 30,No,Shop for company logo items,"As the Head of HR, I would like to offer a number of company logo items for purchase to our employees, so that they feel a sense of community and connection to their peers and to the organization. This is a storefront for company logo items.",8,2,"Administrator panel for listing items. ( only HR can access)
+Employee can browse the catalog and add items to the shopping cart
+Employees can check out and pay by credit card or by using a discount code"
+User Story 31,No,Wellness program,"As a HR leader, I would like to have the wellness program information available and easily accessible to all employees, so that they can explore and select what fits their need. This program will also promote the well-being of our employees and their families.",13,2,"Provide access to all wellness resources
+Ability to sign up for selected programs
+Instructions to sign up for Dr. on Call App
+Record preventative care visits to earn points and cash:
+a. Annual physical
+b. Diabetes screening
+c. High blood pressure screening
+d. Lung cancer screening
+e. Counselling for addiction, obesity and nutrition"
+User Story 32,No,Quicken download,"As an HR admin, I would like the ability to download journal entries from Quicken.",21,1,"Only HR admin can have access this functionality
+Schedule the download on a daily basis, every day at 6:00 p.m.
+Generate an error report and email notification if the process fails"
+User Story 33,Yes,SOX Audit Compliance Reporting,"As an HR admin, I would like the ability to query and generate audit reports for SOX audits.",2,5,"Ability to query the employee datastore using a data access tool
+Create an compliance audit dashboard
+Ability to download an audit log related to user access"
+User Story 34,Yes,Allowance for W-2 Hourly Employees,"As an HR admin, I would like the ability to add allowance for W-2 hourly employees",3,8,"Allow HR admin to add allowance
+Automated workflow for manager approval
+Generate a daily allowance report"
+User Story 35,No,Usability for Employee Experience,"As an employee, I would like the ability to use the portal on a number of devices. Also need to ability to use the accessibility features of standard browsers",3,8,Compliance with Section 508 accessibility standard
+User Story 36,Yes,Employee Validation Rules,"As an HR admin, I would like the ability to add employee validation rules",1,3,Need to explore and expand this story.
+User Story 37,Yes,Charitable Contribution Tax Savings,"As an employee, I would like to understand how much tax savings were generated because of my charitable contributions",1,2,Discuss with finance if this is possible
+User Story 38,Yes,Notification of Changes to Deductions,"As an employee, I would like the ability to be notified of any changes to my payroll deductions",3,5,Any change to deductions to trigger an email and txt if user has opted for txt updates
+User Story 39,No,Separate Pop-Up Windows,"As a UI designer, I would like to standardize all pop-up windows",3,2,"Apply company brand style guide
+Test on supported browsers and mobile devices"
+User Story 40,No,Links to Outside Investments,"As an employee, I would like the ability to link to investments outside my company payroll",2,1,"As an employee, I would like the ability to link to investments outside my company payroll"
+User Story 41,No,Links to Outside Charitable Contributions,"As an employee, I would like the ability to register my charitable organization for automatic payroll contributions",1,8,"Ability to add a charitable organization of your choice
+Ability to set up payroll contributions in % or amounts
+Update the organization wide Charitable dashboard"
